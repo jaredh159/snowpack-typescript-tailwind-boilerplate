@@ -1,0 +1,33 @@
+{
+  "name": "snowpack-typescript-tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "true",
+    "lint": "fldev lint",
+    "lint:fix": "fldev lint:fix",
+    "ts:check": "fldev ts:check",
+    "format": "fldev format"
+  },
+  "author": "Jared Henderson <jared@netrivet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@friends-library/dev": "^4.4.1",
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "@types/snowpack-env": "^2.3.3",
+    "postcss": "^8.3.5",
+    "snowpack": "^3.7.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
